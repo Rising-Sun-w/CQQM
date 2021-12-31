@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.HomePageFragment"
+    >
+
+    <LinearLayout
+        android:id="@+id/lv_fhp_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_fhpTop_recommend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="推荐"
+                android:textSize="25sp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tv_fhpTop_musicHall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="音乐馆"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/tv_fhpTop_radioStation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="电台"
+                android:textSize="25sp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tv_fhpTop_audioBook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginEnd="10dp"
+                android:text="有声书"
+                android:textSize="25sp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_fhpTop_soundHound"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/music"
+            android:layout_weight="0"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </LinearLayout>
+
+
+</FrameLayout>

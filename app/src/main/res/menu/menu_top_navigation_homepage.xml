@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_tnh_recommend"
+        android:title="推荐"/>
+
+    <item
+        android:id="@+id/item_tnh_musicHall"
+        android:title="音乐馆"/>
+
+    <item
+        android:id="@+id/item_tnh_radioStation"
+        android:title="电台"/>
+
+    <item
+        android:id="@+id/item_tnh_audioBook"
+        android:title="有声书"/>
+
+</menu>
